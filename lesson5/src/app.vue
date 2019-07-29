@@ -15,7 +15,10 @@ import MyFooter from './components/footer.vue'
 export default {
   components: {
     MyFooter
-  }
+  },
+  created() {
+    console.log('app渲染了')
+  },
 }
 </script>
 <style lang="stylus">

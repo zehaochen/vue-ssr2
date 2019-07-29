@@ -22,7 +22,15 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  name:'Project',
+  created() {
+    console.log('########')
+    console.log('child-project')
+  }
+}
+</script>
 <style scoped lang="stylus">
 #project
   display flex
